@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IFoody_MARP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/principal</item>
+    </style>
+
+    <style name="Theme.IFoody_MARP" parent="Base.Theme.IFoody_MARP" />
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/gris</item>
+        <item name="itemTextColor">@color/principal</item>
+    </style>
+</resources>

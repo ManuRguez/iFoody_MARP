@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name= "principal">#FE724C</color>
+    <color name="gris">#a8acb2</color>
+    <color name="Color_Restaurant">#8A8E9B</color>
+    <color name="repatidor_reloj">#7E8392</color>
+    <color name="colorChecked">#FE724C</color> <!-- Color cuando está seleccionado (rojo en este caso) -->
+    <color name="colorUnchecked">#D4D5DA</color> <!-- Color cuando no está seleccionado (verde en este caso) -->
+    <color name="USD">#9796A1</color>
+    <color name="green">#4EE476</color>
+    <color name="login">#9796A1</color>
+</resources>

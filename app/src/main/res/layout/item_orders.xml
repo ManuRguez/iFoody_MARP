@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints"
+            android:layout_margin="20dp"
+            android:backgroundTint="#f7f7f8"
+            >
+
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:columnCount="4"
+                app:rowCount="3">
+
+
+                <ImageView
+                    android:id="@+id/img_orders"
+                    android:layout_width="57dp"
+                    android:layout_height="67dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="center"
+                    android:src="@drawable/jimmy"
+                    app:layout_column="0"
+                    app:layout_columnWeight="1"
+                    app:layout_row="0" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_column="1"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="0">
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPriceOrders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="$17.10"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/principal"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_column="3"
+                    app:layout_columnWeight="1"
+                    app:layout_row="0" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical"
+                    app:layout_column="1"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="0">
+
+
+                    <TextView
+                        android:id="@+id/tvDateOrders"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="20 Jun, 10:30 · 3 Items"
+                        android:textColor="@color/gris"
+                        app:layout_column="1"
+                        app:layout_row="0"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tvNameOrders"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawableRight="@drawable/ic_verified"
+                        android:drawablePadding="5dp"
+                        android:text="Jimmy John’s"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:layout_column="2"
+                        app:layout_row="0" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawablePadding="5dp"
+                        android:text="Order Delivered"
+                        android:drawableStart="@drawable/punto"
+                        android:textColor="@color/green"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        app:layout_column="2"
+                        app:layout_row="0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="1"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_column="2"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="1"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="2">
+
+
+                    <Button
+                        android:id="@+id/btnCancelOrder"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:backgroundTint="@color/white"
+                        android:elevation="20dp"
+                        android:text="Rate"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_column="2"
+                    app:layout_columnSpan="2"
+                    app:layout_columnWeight="2"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="2">
+
+
+                    <Button
+                        android:id="@+id/btntrackorder"
+                        android:layout_width="119dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:elevation="30dp"
+                        android:text="Re-Order" />
+
+                </LinearLayout>
+
+
+            </androidx.gridlayout.widget.GridLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

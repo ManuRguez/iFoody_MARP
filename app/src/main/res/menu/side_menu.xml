@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_orders"
+        android:title="My orders"
+        android:icon="@drawable/ic_orders"
+        />
+    <item
+        android:id="@+id/my_profile"
+        android:title="My profile"
+        android:icon="@drawable/ic_profile"
+        />
+    <item
+        android:id="@+id/my_DeliveryAddress"
+        android:title="Delivery Address"
+        android:icon="@drawable/ic_delivery_address"
+        />
+
+    <item
+        android:id="@+id/Payments_Methods"
+        android:title="Payments:Methods"
+        android:icon="@drawable/ic_payments"
+        />
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_message"
+        />
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_setting"
+        />
+
+    <item
+        android:id="@+id/Helps"
+        android:title="Helps FAQs"
+        android:icon="@drawable/ic_help"
+        />
+
+</menu>
